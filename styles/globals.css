@@ -230,14 +230,14 @@ background: #000000;
 .buy-button
 {
   color: rgb(255, 255, 255);
-  background: #000000;
+  background: #616060;
   border-width: 0px;
   border-radius: 6px;
 }
 
 .buy-button :hover
 {
-  background: #ffffff;
+  background: #fbff00;
 }
 
 .makeoffer-button

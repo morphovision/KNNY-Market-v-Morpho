@@ -269,12 +269,12 @@ const Index: NextPage<Props> = ({ collectionId, mode, communityId }) => {
           {tokenOpenSea?.extension === null ? (
           <img
             className="mb-1 border center "
-            src={optimizeImage(token?.token?.image, 30000)}
+            src={optimizeImage(token?.token?.image, 3000)}
           />
         ) : (
           <Media
             tokenOpenSea={tokenOpenSea}
-            tokenImage={optimizeImage(token?.token?.image, 30000)}
+            tokenImage={optimizeImage(token?.token?.image, 3000)}
           />
         )}
         </article></div>
