@@ -265,16 +265,16 @@ const Index: NextPage<Props> = ({ collectionId, mode, communityId }) => {
 
         {/*TOKEN IMAGE*/}
         <div className="col-span-full">
-          <article className="center  w-full gap-4 grid">
+          <article className="center  w-screen gap-4 grid">
           {tokenOpenSea?.extension === null ? (
           <img
             className="mb-1 border center "
-            src={optimizeImage(token?.token?.image, 3000)}
+            src={optimizeImage(token?.token?.image, 50)}
           />
         ) : (
           <Media
             tokenOpenSea={tokenOpenSea}
-            tokenImage={optimizeImage(token?.token?.image, 3000)}
+            tokenImage={optimizeImage(token?.token?.image, 50)}
           />
         )}
         </article></div>
