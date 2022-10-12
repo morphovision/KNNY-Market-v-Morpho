@@ -64,7 +64,7 @@ const Navbar: FC<Props> = ({ communityId, mode}) => {
 <div className="flex col-span-full items-center navbar border-b py-2">
   <Link href="/">
     <div className="px-5 flex pointer">
-      <h4 className="grey">store.knny.io</h4>
+      <h4 className="grey">decentralizednfts.morpho.vision</h4>
       <h4 className="blink">_</h4>
     </div>
   </Link>

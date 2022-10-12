@@ -288,7 +288,7 @@ const Index: NextPage<Props> = ({ collectionId, mode, communityId }) => {
           <Link
             href={
               mode === 'collection'
-                ? 'https://knny.io'
+                ? 'https://www.morpho.vision/'
                 : `/collections/${collection.data?.collection?.id}`
             }
           >
